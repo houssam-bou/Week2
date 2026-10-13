@@ -1,19 +1,12 @@
-header {
-margin-left: 3cm;
-margin-right: 3cm;
-white-space: nowrap;
-}
-nav{
+
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
 }
-header img {
-    padding: 3px;
-    border-radius: 10px;
-    background-color: blue;
-    border-width: 40px;
-}
+
 
 #Plomb {
     font-family: "Inter", sans-serif;
@@ -28,43 +21,53 @@ header img {
     color: blue;
     font-size: 25px;
 }
+.aaa{
+    display: flex;
+    align-items: center;
 
-#logo {
-    text-decoration: none;
+    width: 28px;
+    height: 28px;
+    
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
 .nav a {
     font-family: "Inter", sans-serif;
     color: black;
     font-size: 14px;
     font-weight: 600;
-    text-decoration: none;
-    white-space: nowrap;
 }
-.links{
+
+.links {
+    
     display: flex;
     align-items: center;
-    gap:36px;
+    gap: 36px;
+}
+a{
+    text-decoration: none;
 }
 #hover:hover {
     border-bottom: solid 2px blue;
     color: blue;
+    
 }
 
 button {
     width: 171px;
     height: 44px;
-
     border-radius: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    gap: 12px;
     background-color: #FF6418;
     color: #FFFFFF;
 }
 
 button:hover {
     background-color: red;
-    border-radius: solid 10px;
+    border-radius: solid #FF6418 1px;
+    border-bottom: solid blue 2px;
 
 }
