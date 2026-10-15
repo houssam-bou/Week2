@@ -1,10 +1,12 @@
 /*               header           */
+
+
+
 .navbar {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 250px;
     align-items: center;
-    margin-left: 35px;
-    margin-right: 35px;
+
 }
 
 
@@ -22,13 +24,6 @@
     font-size: 25px;
 }
 
-.logo_PlombExpress {
-    display: flex;
-    align-items: center;
-
-    width: 28px;
-    height: 28px;
-}
 
 .logo {
     display: flex;
@@ -78,9 +73,10 @@ button:hover {
 }
 
 /*               main           */
-.hero_section{
+.hero_section {
     background-color: #F3F7FA;
 }
+
 .section1 {
     display: flex;
     align-items: center;
@@ -141,14 +137,15 @@ button:hover {
 
 .section1_icon {
     display: flex;
-align-items: center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
     gap: 180px;
 }
-.section1_icon > div {
+
+.section1_icon>div {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -157,4 +154,84 @@ align-items: center;
 .section1_icon i {
     color: #0866C2;
     font-size: 20px;
+}
+
+/*                                section2                            */
+.nos_savoir {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding-top: 65px;
+
+}
+
+#p1 {
+    color: #0866C2;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#p2 {
+    color: #486176;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    font-size: 40px;
+    color: #102A43;
+}
+
+.section2_cards {
+padding: 50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 394px;
+    background-color: aqua;
+
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.section2_card1 , .section2_card2 , .section2_card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: white;
+    margin: 20px;
+    height: 433px;
+}
+#card1_img , #card2_img , #card3_img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+/*                      footer                    */
+
+footer {
+    background-color: #102A43;
+}
+
+.water_logo {
+    border-radius: 4px;
+    background-color: #0866C2;
+    width: 22px;
+    height: 25px;
 }
