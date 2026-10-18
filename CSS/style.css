@@ -278,47 +278,157 @@ button:hover {
     flex-direction: column;
     gap: 24px;
 }
-.list_des_avantages{
+
+.list_des_avantages {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 24px;
     column-gap: 32px;
 }
-.div_pourquoi{
-display: flex;
-flex-direction: column;
-gap: 14px;
+
+.div_pourquoi {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
-.avantage_titre{
+
+.avantage_titre {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.avantage{
+
+.avantage {
     display: flex;
     flex-direction: column;
+}
+
+.avantage_titre h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    color: #102A43;
 }
 
 /*                      footer                    */
 
 footer {
     background-color: #102A43;
+    color: #BCCCDC;
+    font-family: "Inter", sans-serif;
+    padding: 64px 104px 28px 104px;
+}
+
+.footer_section1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
+    padding-bottom: 36px;
+}
+
+.footer_div1 .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.footer_div1 .logo h2 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer_div1 p {
+    font-size: 12px;
+    margin: 0 0 14px;
+}
+
+.social_media {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social_media i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #334E68;
+    border-radius: 7px;
+    color: #BCCCDC;
+    font-size: 15px;
+
+}
+
+.footer_column h5 {
+    color: white;
+    font-size: 12px;
+    margin: 0 0 18px;
+}
+
+.footer_column nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer_column a,
+.footer_column p {
+    color: #BCCCDC;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 0 12px;
+}
+
+
+.footer_column a:hover {
+    color: white;
+}
+
+.contact_item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.footer_coordonnes {
+    font-size: 10px;
+    margin-top: 18px;
+}
+
+.footer_div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    border-top: 1px solid #334E68;
+    padding-top: 20px;
+}
+
+.footer_coordonnes p {
+    font-size: 10px;
+}
+
+.footer_div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
 }
 
 .water_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     background-color: #0866C2;
     width: 22px;
     height: 25px;
 }
-.lucide{
+
+.lucide {
     color: blue;
-}
-@media (min-width=500px) {
-    .section1 {
-        flex-direction: column;
-
-    }
-
-
 }
