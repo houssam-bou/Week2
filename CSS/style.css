@@ -432,3 +432,35 @@ footer {
 .lucide {
     color: blue;
 }
+
+/*                    Media Queries                 */
+@media (max-width : 400px) {
+
+    body {
+        height: auto;
+    }
+
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    .button_demander button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .section1 {
+        padding-left: 104px;
+        padding-right: 104px;
+    }
+}
